@@ -956,7 +956,9 @@ export default function CoursePage({ course }: { course: Course }) {
             </span>
             <div style={{ display: 'flex', gap: 12, marginTop: 6 }}>
               <a
-                href="#"
+                href="https://www.instagram.com/topcursoscs/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="social-link"
                 style={{
@@ -974,7 +976,9 @@ export default function CoursePage({ course }: { course: Course }) {
                 <InstagramIcon />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/topcursosrs"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="social-link"
                 style={{

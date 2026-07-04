@@ -952,7 +952,7 @@ export default function CoursePage({ course }: { course: Course }) {
             </a>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: 8, fontSize: 15 }}>
               <PinIcon />
-              Rua Ernesto Alves, Santa Cruz do Sul, RS
+              Rua Érico Veríssimo, 61 - Centro, Santa Cruz do Sul - RS, 96810-471
             </span>
             <div style={{ display: 'flex', gap: 12, marginTop: 6 }}>
               <a

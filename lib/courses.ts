@@ -99,6 +99,7 @@ export const maquinasPesadas: Course = {
       'Motoniveladora',
       'Rolo compactador',
     ],
+    image: { src: '/assets/maquinas-pesadas-hero.jpg', alt: 'Máquinas pesadas em operação' },
     imagePlaceholder: 'Foto: máquina pesada em operação',
   },
   credibility: [
@@ -257,6 +258,7 @@ export const empilhadeira: Course = {
     titlePost: ' e entre na frente da fila das vagas',
     paragraph:
       'Teoria online no seu ritmo, prática de verdade na máquina e certificado aceito em qualquer empresa do país. Do zero ao operador em 20 horas.',
+    image: { src: '/assets/empilhadeira-hero.jpg', alt: 'Empilhadeira em operação' },
     imagePlaceholder: 'Foto: empilhadeira em operação',
   },
   credibility: [

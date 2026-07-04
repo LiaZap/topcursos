@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(NEXT_PUBLIC_WHATSAPP=5551999998888 npm run build)",
+      "Bash(grep -rl \"5551999998888\" .next)",
+      "Bash(cp -r .next/static .next/standalone/.next/static)",
+      "Bash(cp -r public .next/standalone/public)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

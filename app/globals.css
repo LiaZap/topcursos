@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  color: #16181d;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #9aa3af;
+}
+
+/* Estados de hover/focus (inline styles não cobrem pseudo-classes). */
+.btn-yellow {
+  transition: background 0.15s ease;
+}
+.btn-yellow:hover {
+  background: #e6a600 !important;
+}
+
+.btn-green {
+  transition: background 0.15s ease;
+}
+.btn-green:hover {
+  background: #1ebe5a !important;
+}
+
+.faq-q {
+  transition: background 0.15s ease;
+}
+.faq-q:hover {
+  background: #f3f5f8 !important;
+}
+
+.input-field {
+  transition: border-color 0.15s ease;
+}
+.input-field:focus {
+  border-color: #1b4b9b !important;
+}
+
+.social-link {
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.social-link:hover {
+  background: #ffb800 !important;
+  color: #16181d !important;
+}
+
+.phone-link {
+  transition: color 0.15s ease;
+}
+.phone-link:hover {
+  color: #ffb800 !important;
+}
+
+.wa-float {
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.wa-float:hover {
+  background: #1ebe5a !important;
+  transform: scale(1.06);
+}
